@@ -5,10 +5,10 @@ on:
       - "main"
 
 jobs:
-  build:    # This workflow contains a single job called "build"
-    runs-on: ubuntu-latest   # The type of runner that the job will run on
+  build:    
+    runs-on: ubuntu-latest   
   
-    steps:  # List of steps to be executed within the job
+    steps:  
       - name: Checkout code 
         uses: actions/checkout@v4
       
